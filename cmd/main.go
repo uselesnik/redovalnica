@@ -27,7 +27,7 @@ func main() {
 			&cli.IntFlag{
 				Name:  "minStOcen",
 				Usage: "Minimalno število ocen potrebnih za pozitivno zaključeno oceno",
-				Value: 10,
+				Value: 6,
 			},
 		},
 		Action: func(ctx context.Context, c *cli.Command) error {
